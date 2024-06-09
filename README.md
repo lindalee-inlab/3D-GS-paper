@@ -41,21 +41,27 @@ https://github.com/spla-tam/SplaTAM
 首先推导解析的相机姿态雅可比矩阵，使得相机姿态可以和场景几何一起优化；然后引入新高斯形状正则化，以保证几何一致性，这对增量重建非常重要。
 
 1. 相机姿态估计的解析雅可比
+
 ![alt text](eq-gsslam-1.png)
+
 ![alt text](eq-gsslam-2.png)
 
 2. tracking
 
 ![alt text](track-gs.png)
 
-光度：![alt text](track-1.png)
-几何:![alt text](track-2.png)
+光度：
+![alt text](track-1.png)
+
+几何:
+![alt text](track-2.png)
 
 3. mapping
 
 ![alt text](map-gs.png)
 
-几何一致：![alt text](map-1.png)
+几何一致：
+![alt text](map-1.png)
 
 
 ### 论文现有缺点：
