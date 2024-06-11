@@ -1,4 +1,4 @@
-# 3D-GS-paper
+# 3D-GS-SLAM-paper
 
 ## SplaTAM
 
@@ -71,3 +71,26 @@ https://github.com/spla-tam/SplaTAM
 ### 代码地址：
 
 https://github.com/muskie82/MonoGS
+
+# 3D-GS-Seg
+
+## LangSplat
+
+### 论文框架：
+
+![alt text](langsplat.png)
+
+### 代码地址：
+
+https://github.com/minghanqin/LangSplat
+
+## LEGaussians:
+
+### 论文框架：
+
+![alt text](LEGaussians.png)
+
+### 代码地址：
+
+https://github.com/buaavrcg/LEGaussians
+
